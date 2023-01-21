@@ -52,4 +52,4 @@
   type: list
   contents:
     - <u>Journal Reviewer:</u> Journal of Machine Learning Research (JMLR), Machine Learning Journal.
-    - <u>Conference Reviewer/ Program Committee:</u> NeurIPS (2021,2022), ICML (2021,2022), ICLR (2022,2023), AISTATS (2022,2023), AAAI (2023), CVPR (2023).
+    - <u>Conference Reviewer/ Program Committee:</u> NeurIPS (2021,2022), ICML (2021,2022,2023), ICLR (2022,2023), AISTATS (2022,2023), AAAI (2023), CVPR (2023).
