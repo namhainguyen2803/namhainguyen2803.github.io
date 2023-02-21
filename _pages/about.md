@@ -21,7 +21,7 @@ Before joining UT Austin, I was an AI Research Resident at [VinAI Research, Viet
 
 **Research:** My current works are making [Optimal Transport](https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)) scalable in statistical inference (low computational complexity, low memory complexity, low sample complexity) via the one-dimensional projection approach which is known as sliced optimal transport (sliced Wasserstein distance). 
 
-My work focuses on pushing forward two directions:
+My works focus on pushing forward two directions:
 * ***Selecting informative projecting directions***: The vanilla sliced Wasserstein distance naively treats all one-dimensional projections the same and independently by using the uniform distribution over projecting directions. To address the issue, I propose to search for the best distribution over projecting distributions (or the slicing distribution) which can maximize the expected projected distance. 
 In particular, a regularized implicit family of distributions is introduced in [[ICLR'21]](https://openreview.net/pdf?id=QYjO70ACDK) and  explicit families (von Mises-Fisher and Power Spherical) are introduced in [[ICLR'21]](https://openreview.net/pdf?id=DiQD7FWL233). Moreover, I introduce the usage of
 amortized optimization to predict the optimal slicing distribution given two input probablity measures in the setting which has various pairs of probability measures in [[NeurIPS'22]](https://arxiv.org/pdf/2203.13417.pdf) and [[Arxiv'23]](https://arxiv.org/pdf/2301.04791.pdf). To enhance further the quality of projecting directions, I break the independence between them by imposing the first order Markov structure in [[Arxiv'23]](https://arxiv.org/pdf/2301.03749.pdf).
