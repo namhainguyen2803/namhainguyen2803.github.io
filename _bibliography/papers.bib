@@ -195,12 +195,12 @@ title={Distributional Sliced-Wasserstein and Applications to Generative Modeling
 author={Khai Nguyen and Nhat Ho and Tung Pham and Hung Bui},
 booktitle={International Conference on Learning Representations},
 year={2021},
-url={https://arxiv.org/pdf/2002.07367.pdf},
+url={https://arxiv.org/abs/2002.07367},
 selected = {true},
 published={true},
 abstract={Sliced-Wasserstein distance (SW) and its variant, Max Sliced-Wasserstein distance (Max-SW), have been used widely in the recent years due to their fast computation and scalability even when the probability measures lie in a very high dimensional space. However, SW requires many unnecessary projection samples to approximate its value while Max-SW only uses the most important projection, which ignores the information of other useful directions. In order to account for these weaknesses, we propose a novel distance, named Distributional Sliced-Wasserstein distance (DSW), that finds an optimal distribution over projections that can balance between exploring distinctive projecting directions and the informativeness of projections themselves. We show that the DSW is a generalization of Max-SW, and it can be computed efficiently by searching for the optimal push-forward measure over a set of probability measures over the unit sphere satisfying certain regularizing constraints that favor distinct directions. Finally, we conduct extensive experiments with large-scale datasets to demonstrate the favorable performances of the proposed distances over the previous sliced-based distances in generative modeling applications.},
 code={https://github.com/VinAIResearch/DSW},
-pdf={https://openreview.net/pdf?id=QYjO70ACDK}
+pdf={https://arxiv.org/pdf/2002.07367.pdf}
 }
 
 @inproceedings{
@@ -210,11 +210,11 @@ title={Improving Relational Regularized Autoencoders with Spherical Sliced Fused
 author={Khai Nguyen and Son Nguyen and Nhat Ho and Tung Pham and Hung Bui},
 booktitle={International Conference on Learning Representations},
 year={2021},
-url={https://arxiv.org/pdf/2010.01787.pdf},
+url={https://arxiv.org/abs/2010.01787},
 selected = {true},
 published={true},
 award={Spotlight (3%)},
-pdf={https://openreview.net/pdf?id=DiQD7FWL233},
+pdf={https://arxiv.org/pdf/2010.01787.pdf},
 abstract={Relational regularized autoencoder (RAE) is a framework to learn the distribution of data by minimizing a reconstruction loss together with a relational regularization on the prior of latent space. A recent attempt to reduce the inner discrepancy between the prior and aggregated posterior distributions is to incorporate sliced fused Gromov-Wasserstein (SFG) between these distributions. That approach has a weakness since it treats every slicing direction similarly, meanwhile several directions are not useful for the discriminative task. To improve the discrepancy and consequently the relational regularization, we propose a new relational discrepancy, named spherical sliced fused Gromov Wasserstein (SSFG), that can find an important area of projections characterized by a von Mises-Fisher distribution. Then, we introduce two variants of SSFG to improve its performance. The first variant, named mixture spherical sliced fused Gromov Wasserstein (MSSFG), replaces the vMF distribution by a mixture of von Mises-Fisher distributions to capture multiple important areas of directions that are far from each other. The second variant, named power spherical sliced fused Gromov Wasserstein (PSSFG), replaces the vMF distribution by a power spherical distribution to improve the sampling time of the vMF distribution in high dimension settings. We then apply the new discrepancies to the RAE framework to achieve its new variants. Finally, we conduct extensive experiments to show that the new autoencoders have favorable performance in learning latent manifold structure, image generation, and reconstruction.}
 }
 
