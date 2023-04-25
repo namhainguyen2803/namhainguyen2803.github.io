@@ -3,6 +3,7 @@ abbr = {Preprint},
   title={Optimal Rate for Parameter Estimation in Matrix-variate Deviated Models},
   author={Nhat Ho and Dat Do and Huy Nguyen and Khai Nguyen},
   journal={arXiv preprint arXiv:2301.11808},
+  pdf ={https://arxiv.org/pdf/2301.11808.pdf},
   abstract={We study the maximum likelihood estimation (MLE) in the \modelname \ where the data are generated from the density function $(1-\lambda^{*})h_{0}(x)+\lambda^{*}f(x|\mu^{*}, \Sigma^{*})$ where $h_{0}$ is a known function, $\lambda^{*} \in [0,1]$ and $(\mu^{*}, \Sigma^{*})$ are unknown parameters to estimate. The main challenges in deriving the convergence rate of the MLE mainly come from two issues: (1) The interaction between the function $h_{0}$ and the density function $f$; (2) The deviated proportion $\lambda^{*}$ can go to the extreme points of $[0,1]$ as the sample size goes to infinity. To address these challenges, we develop the \emph{distinguishability condition} to capture the linear independent relation between the function $h_{0}$ and the density function $f$. We then provide comprehensive convergence rates of the MLE via the vanishing rate of $\lambda^{*}$ to 0 as well as the distinguishability of $h_{0}$ and $f$.},
   year={2023}
 }
@@ -30,10 +31,10 @@ abbr = {Preprint},
 
 
 @article{nguyen2023selfattention,
-abbr = {Preprint},
+abbr = {ICML},
   title={Self-Attention Amortized Distributional Projection Optimization for Sliced Wasserstein Point-Cloud Reconstruction},
   author={Khai Nguyen* and Dang Nguyen* and Nhat Ho},
-  journal={arXiv preprint arXiv:2301.04791},
+  journal={Proceedings of the 40th International Conference on Machine Learning},
   year={2023},
   selected = {true},
   pdf={https://arxiv.org/pdf/2301.04791.pdf},
@@ -46,7 +47,7 @@ abbr = {Preprint},
   author={Dung Le* and Huy Nguyen* and Khai Nguyen* and Trang Nguyen and Nhat Ho},
   journal={arXiv preprint arXiv:2210.10268},
   year={2022},
-  selected = {true},
+  selected = {false},
   pdf={https://arxiv.org/pdf/2210.10268.pdf},
   abstract={Generalized sliced Wasserstein distance is a variant of sliced Wasserstein distance that exploits the power of non-linear projection through a given defining function to better capture the complex structures of the probability distributions. Similar to sliced Wasserstein distance, generalized sliced Wasserstein is defined as an expectation over random projections which can be approximated by the Monte Carlo method. However, the complexity of that approximation can be expensive in high-dimensional settings. To that end, we propose to form deterministic and fast approximations of the generalized sliced Wasserstein distance by using the concentration of random projections when the defining functions are polynomial function, circular function, and neural network type function. Our approximations hinge upon an important result that one-dimensional projections of a high-dimensional random vector are approximately Gaussian.}
   }
@@ -183,6 +184,7 @@ abbr = {AISTATS},
   publisher =    {PMLR},
   pdf = 	 {https://proceedings.mlr.press/v151/le22a/le22a.pdf},
   url = 	 {https://proceedings.mlr.press/v151/le22a.html},
+  abstract ={We study the multi-marginal partial optimal transport (POT) problem between  discrete (unbalanced) measures with at most  supports. We first prove that we can obtain two equivalent forms of the multimarginal POT problem in terms of the multimarginal optimal transport problem via novel extensions of cost tensors. The first equivalent form is derived under the assumptions that the total masses of each measure are sufficiently close while the second equivalent form does not require any conditions on these masses but at the price of more sophisticated extended cost tensor. Our proof techniques for obtaining these equivalent forms rely on novel procedures of moving mass in graph theory to push transportation plan into appropriate regions. Finally, based on the equivalent forms, we develop an optimization algorithm, named the ApproxMPOT algorithm, that builds upon the Sinkhorn algorithm for solving the entropic regularized multimarginal optimal transport. We demonstrate that the ApproxMPOT algorithm can approximate the optimal value of multimarginal POT problem with a computational complexity upper bound of the order $\bigOtil (m^ 3 (n+ 1)^{m}/\varepsilon^ 2) $ where  stands for the desired tolerance.},
   published={true}
 }
 
