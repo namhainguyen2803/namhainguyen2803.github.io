@@ -27,11 +27,13 @@
   type: time_table
   contents:
     - title: Research Intern
-        institution: Toyota InfoTech Labs
-        year: Summer 2023
+      institution: Toyota InfoTech Labs
+      year: Summer 2023
+
     - title: Graduate Research Assistant
-        institution: The University of Texas at Austin
-        year: 2022-2023
+      institution: The University of Texas at Austin
+      year: 2022-2023
+
     - title: Research Intern
       institution: AT&T Labs
       year: Summer 2022
