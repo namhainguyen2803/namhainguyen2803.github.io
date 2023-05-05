@@ -27,6 +27,12 @@
   type: time_table
   contents:
     - title: Research Intern
+      institution: Toyota InfoTech Labs
+      year: Summer 2023
+    - title: Graduate Research Assistant
+        institution: The University of Texas at Austin
+        year: 2022-2023
+    - title: Research Intern
       institution: AT&T Labs
       year: Summer 2022
 
@@ -40,16 +46,19 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2023
+      - ICML Travel Grant (~$2,000)
     - year: 2022
       items:
-        - NeurIPS Scholar Award (~2,000$)
-        - ICML Travel Grant (~2,000$)
+        - Top Reviewer Award at NeurIPS (~$1,000)
+        - NeurIPS 2022 Scholar Award (~$2,000)
+        - ICML 2022 Travel Grant (~$2,000)
     - year: 2021
       items: 
-        - UT Austin Graduate Fellowship (~30,000$)
+        - UT Austin Graduate Fellowship (~$30,000)
 
 - title: Professional Services
   type: list
   contents:
     - <u>Journal Reviewer:</u> Journal of Machine Learning Research (JMLR), Machine Learning Journal.
-    - <u>Conference Reviewer/ Program Committee:</u> NeurIPS (2021,2022), ICML (2021,2022,2023), ICLR (2022,2023), AISTATS (2022,2023), AAAI (2023), CVPR (2023), ICCV (2023).
+    - <u>Conference Reviewer/ Program Committee:</u> NeurIPS (2021,2022,2023), ICML (2021,2022,2023), ICLR (2022,2023), AISTATS (2022,2023), AAAI (2023), CVPR (2023), ICCV (2023).
