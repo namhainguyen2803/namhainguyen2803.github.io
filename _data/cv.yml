@@ -27,8 +27,8 @@
   type: time_table
   contents:
     - title: Research Intern
-      institution: Toyota InfoTech Labs
-      year: Summer 2023
+        institution: Toyota InfoTech Labs
+        year: Summer 2023
     - title: Graduate Research Assistant
         institution: The University of Texas at Austin
         year: 2022-2023
@@ -47,7 +47,8 @@
   type: time_table
   contents:
     - year: 2023
-      - ICML Travel Grant (~$2,000)
+      items:
+        - ICML Travel Grant (~$2,000)
     - year: 2022
       items:
         - Top Reviewer Award at NeurIPS (~$1,000)
