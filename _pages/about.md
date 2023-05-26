@@ -20,8 +20,10 @@ Hi! I’m Khai, a second-year Ph.D. student at [Department of Statistics and Dat
 Before joining UT Austin, I was an AI Research Resident at [VinAI Research, Vietnam](http://www.vinai.io) under the supervision of [Dr. Hung Bui](https://sites.google.com/site/buihhung/).
 
 **Research:** My current works are making [Optimal Transport](https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)) scalable in statistical inference (low computational complexity, low memory complexity, low sample complexity) via the one-dimensional projection approach which is known as sliced optimal transport (sliced Wasserstein distance). 
+<details>
+  <summary>Details of my research</summary>
 
-My works focus on pushing forward three aspects of the SW distance:
+My works focus on three aspects of the SW distance:
 * ***Projecting directions.*** The vanilla sliced Wasserstein (SW) distance naively treats all one-dimensional projections the same and independently by using the uniform distribution over projecting directions. To improve and generalize the SW, I propose to search for the best distribution over projecting distributions (or the slicing distribution) which can maximize the expected projected distance. 
 In particular, a regularized implicit family of distributions is introduced in [[ICLR'21]](https://arxiv.org/pdf/2002.07367.pdf) and  explicit families (von Mises-Fisher and Power Spherical) are introduced in [[ICLR'21]](https://arxiv.org/pdf/2010.01787.pdf). Moreover, I introduce the usage of
 amortized optimization to predict the optimal slicing distribution given two input probablity measures in the setting which has various pairs of probability measures in [[NeurIPS'22]](https://arxiv.org/pdf/2203.13417.pdf) and [[ICML'23]](https://arxiv.org/pdf/2301.04791.pdf). To enhance further the quality of projecting directions, I break the independence between them by imposing the first order Markov structure in [[Arxiv'23]](https://arxiv.org/pdf/2301.03749.pdf). 
@@ -32,5 +34,5 @@ and  a projecting direction as the supports of the one-dimensional projected pro
 I first propose control variates which are based on the closed-form of the Wasserstein-2 distance between two Gaussians in [[Arxiv'23](https://arxiv.org/pdf/2305.00402.pdf)]. Importantly, the proposed control variates have linear time complexity and space complexity. 
 
 Moreover, I aim to push forward the application of optimal transport, Wasserstein distance, and sliced Wasserstein distance in probabilistic Machine Learning models such as  point-clouds applications [[ICML'23]](https://arxiv.org/pdf/2301.04791.pdf), generative models [[NeurIPS'22]](https://arxiv.org/pdf/2203.13417.pdf), domain adaptation [[ICML'22]](https://proceedings.mlr.press/v162/nguyen22d/nguyen22d.pdf) [[ICML'22]](https://proceedings.mlr.press/v162/nguyen22e/nguyen22e.pdf), and other tasks that need to deal with probability measures.
-
+</details>
 [comment]: <> (I am also interested in designing efficient [Transformer]&#40;https://en.wikipedia.org/wiki/Transformer_&#40;machine_learning_model&#41;&#41; architectures.)
