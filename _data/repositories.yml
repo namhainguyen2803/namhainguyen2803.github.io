@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - khainb
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - VinAIResearch/DSW
+  - UT-Austin-Data-Science-Group/AmortizedSW
+  - UT-Austin-Data-Science-Group/Mini-batch-OT
+  - UT-Austin-Data-Science-Group/CSW
+  - UT-Austin-Data-Science-Group/HSW
+
