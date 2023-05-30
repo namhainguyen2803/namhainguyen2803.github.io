@@ -1,47 +1,47 @@
----
+[comment]: <> (---)
 
-layout: page
+[comment]: <> (layout: page)
 
-permalink: /repositories/
+[comment]: <> (permalink: /repositories/)
 
-title: Repositories
+[comment]: <> (title: Repositories)
 
-nav: true
+[comment]: <> (nav: true)
 
-nav_order: 3
+[comment]: <> (nav_order: 3)
 
----
+[comment]: <> (---)
 
-## GitHub users
+[comment]: <> (## GitHub users)
 
-{% if site.data.repositories.github_users %}
+[comment]: <> ({% if site.data.repositories.github_users %})
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+[comment]: <> (<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">)
 
-  {% for user in site.data.repositories.github_users %}
+[comment]: <> (  {% for user in site.data.repositories.github_users %})
 
-    {% include repository/repo_user.html username=user %}
+[comment]: <> (    {% include repository/repo_user.html username=user %})
 
-  {% endfor %}
+[comment]: <> (  {% endfor %})
 
-</div>
+[comment]: <> (</div>)
 
-{% endif %}
+[comment]: <> ({% endif %})
 
----
+[comment]: <> (---)
 
-## GitHub Repositories
+[comment]: <> (## GitHub Repositories)
 
-{% if site.data.repositories.github_repos %}
+[comment]: <> ({% if site.data.repositories.github_repos %})
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+[comment]: <> (<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">)
 
-  {% for repo in site.data.repositories.github_repos %}
+[comment]: <> (  {% for repo in site.data.repositories.github_repos %})
 
-    {% include repository/repo.html repository=repo %}
+[comment]: <> (    {% include repository/repo.html repository=repo %})
 
-  {% endfor %}
+[comment]: <> (  {% endfor %})
 
-</div>
+[comment]: <> (</div>)
 
-{% endif %}
+[comment]: <> ({% endif %})
