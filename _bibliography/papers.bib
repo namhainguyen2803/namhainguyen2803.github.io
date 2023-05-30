@@ -20,6 +20,35 @@ abbr = {Preprint},
   year={2023}
 }
 
+@article{le2023brain,
+abbr = {Preprint},
+  title={Diffeomorphic Deformation via Sliced Wasserstein Distance Optimization for Cortical Surface Reconstruction},
+  author={Le, Tung and Nguyen, Khai and Ho, Nhat and Sun, Shanlin and Han, Kun and Xie, Xiaohui},
+  journal={arXiv preprint arXiv:2305.17555},
+  selected = {true},
+  pdf={https://arxiv.org/pdf/2305.17555.pdf},
+  abstract={Mesh deformation is a core task for 3D mesh reconstruction, but defining an efficient
+discrepancy between predicted and target meshes remains an open problem. A prevalent
+approach in current deep learning is the set-based approach which measures the discrepancy
+between two surfaces by comparing two randomly sampled point-clouds from the two
+meshes with Chamfer pseudo-distance. Nevertheless, the set-based approach still has
+limitations such as lacking a theoretical guarantee for choosing the number of points
+in sampled point-clouds, and the pseudo-metricity and the quadratic complexity of the
+Chamfer divergence. To address these issues, we propose a novel metric for learning
+mesh deformation. The metric is defined by sliced Wasserstein distance on meshes
+represented as probability measures that generalize the set-based approach. By leveraging
+probability measure space, we gain flexibility in encoding meshes using diverse forms of
+probability measures, such as continuous, empirical, and discrete measures via varifold
+representation. After having encoded probability measures, we can compare meshes by
+using the sliced Wasserstein distance which is an effective optimal transport distance with
+linear computational complexity and can provide a fast statistical rate for approximating
+the surface of meshes. Furthermore, we employ a neural ordinary differential equation
+(ODE) to deform the input surface into the target shape by modeling the trajectories of
+the points on the surface. Our experiments on cortical surface reconstruction demonstrate
+that our approach surpasses other competing methods in multiple datasets and metrics.},
+  year={2023}
+}
+
 
 @article{ho2023optimal,
 abbr = {Preprint},
