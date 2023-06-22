@@ -60,6 +60,16 @@ abbr = {Preprint},
   year={2023}
 }
 
+@article{nguyen2023toward,
+abbr = {Preprint},
+  title={Towards Convergence Rates for Parameter Estimation in Gaussian-gated Mixture of Experts},
+  author={Huy Nguyen and Trung Tin Nguyen and Khai Nguyen and Nhat Ho},
+  journal={arXiv preprint arXiv:2305.07572},
+  pdf ={https://arxiv.org/pdf/2305.07572.pdf},
+  abstract={Originally introduced as a neural network for ensemble learning, mixture of experts (MoE) has recently become a fundamental building block of highly successful modern deep neural networks for heterogeneous data analysis in several applications, including those in machine learning, statistics, bioinformatics, economics, and medicine. Despite its popularity in practice, a satisfactory level of understanding of the convergence behavior of Gaussian-gated MoE parameter estimation is far from complete. The underlying reason for this challenge is the inclusion of covariates in the Gaussian gating and expert networks, which leads to their intrinsically complex interactions via partial differential equations with respect to their parameters. We address these issues by designing novel Voronoi loss functions to accurately capture heterogeneity in the maximum likelihood estimator (MLE) for resolving parameter estimation in these models. Our results reveal distinct behaviors of the MLE under two settings: the first setting is when all the location parameters in the Gaussian gating are non-zeros while the second setting is when there exists at least one zero-valued location parameter. Notably, these behaviors can be characterized by the solvability of two different systems of polynomial equations. Finally, we conduct a simulation study to verify our theoretical results.},
+  year={2023}
+}
+
 @article{huy2023on,
 abbr = {Preprint},
   title={On Parameter Estimation in Deviated Gaussian Mixture of Experts},
@@ -97,12 +107,13 @@ abbr = {ICML},
   }
 
 @article{le2022approx,
-abbr = {Preprint},
+abbr = {ICML Workshop},
   title={Fast Approximation of the Generalized Sliced-Wasserstein Distance},
   author={Dung Le* and Huy Nguyen* and Khai Nguyen* and Trang Nguyen and Nhat Ho},
-  journal={arXiv preprint arXiv:2210.10268},
+  journal={ICML 2023 Workshop on New Frontiers in Learning, Control, and Dynamical Systems},
   year={2022},
   selected = {false},
+  published={true},
   pdf={https://arxiv.org/pdf/2210.10268.pdf},
   abstract={Generalized sliced Wasserstein distance is a variant of sliced Wasserstein distance that exploits the power of non-linear projection through a given defining function to better capture the complex structures of the probability distributions. Similar to sliced Wasserstein distance, generalized sliced Wasserstein is defined as an expectation over random projections which can be approximated by the Monte Carlo method. However, the complexity of that approximation can be expensive in high-dimensional settings. To that end, we propose to form deterministic and fast approximations of the generalized sliced Wasserstein distance by using the concentration of random projections when the defining functions are polynomial function, circular function, and neural network type function. Our approximations hinge upon an important result that one-dimensional projections of a high-dimensional random vector are approximately Gaussian.}
   }
