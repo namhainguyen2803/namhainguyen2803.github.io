@@ -1,9 +1,21 @@
-@article{nguyen2023energy,
+@article{nguyen2023quasi,
 abbr = {Preprint},
+  title={Quasi-Monte Carlo for 3D Sliced Wasserstein},
+  author={Nguyen, Khai and Bariletto, Nicolas and Ho, Nhat},
+  journal={arXiv preprint arXiv:2309.11713},
+  selected = {true},
+  pdf={https://arxiv.org/pdf/2309.11713.pdf},
+  abstract={Monte Carlo (MC) approximation has been used as the standard computation approach for the Sliced Wasserstein (SW) distance, which has an intractable expectation in its analytical form. However, the MC method is not optimal in terms of minimizing the absolute approximation error. To provide a better class of empirical SW, we propose quasi-sliced Wasserstein (QSW) approximations that rely on Quasi-Monte Carlo (QMC) methods. For a comprehensive investigation of QMC for SW, we focus on the 3D setting, specifically computing the SW between probability measures in three dimensions. In greater detail, we empirically verify various ways of constructing QMC points sets on the 3D unit-hypersphere, including Gaussian-based mapping, equal area mapping, generalized spiral points, and optimizing discrepancy energies. Furthermore, to obtain an unbiased estimation for stochastic optimization, we extend QSW into Randomized Quasi-Sliced Wasserstein (RQSW) by introducing randomness to the discussed low-discrepancy sequences. For theoretical properties, we prove the asymptotic convergence of QSW and the unbiasedness of RQSW. Finally, we conduct experiments on various 3D tasks, such as point-cloud comparison, point-cloud interpolation, image style transfer, and training deep point-cloud autoencoders, to demonstrate the favorable performance of the proposed QSW and RQSW variants.},
+  year={2023}
+}
+
+@article{nguyen2023energy,
+abbr = {NeurIPS},
   title={Energy-Based Sliced Wasserstein Distance},
   author={Nguyen, Khai and Ho, Nhat},
   journal={arXiv preprint arXiv:2304.13586},
   selected = {true},
+  published={true},
   pdf={https://arxiv.org/pdf/2304.13586.pdf},
   abstract={The sliced Wasserstein (SW) distance has been widely recognized as a statistically effective and computationally efficient metric between two probability measures. A key component of the SW distance is the slicing distribution. There are two existing approaches for choosing this distribution. The first approach is using a fixed prior distribution. The second approach is optimizing for the best distribution which belongs to a parametric family of distributions and can maximize the expected distance. However, both approaches have their limitations. A fixed prior distribution is non-informative in terms of highlighting projecting directions that can discriminate two general probability measures. Doing optimization for the best distribution is often expensive and unstable. Moreover, designing the parametric family of the candidate distribution could be easily misspecified. To address the issues, we propose to design the slicing distribution as an energy-based distribution that is parameter-free and has the density proportional to an energy function of the projected one-dimensional Wasserstein distance. We then derive a novel sliced Wasserstein metric, energy-based sliced Waserstein (EBSW) distance, and investigate its topological, statistical, and computational properties via importance sampling, sampling importance resampling, and Markov Chain methods. Finally, we conduct experiments on point-cloud gradient flow, color transfer, and point-cloud reconstruction to show the favorable performance of the EBSW.},
   year={2023}
@@ -51,11 +63,12 @@ that our approach surpasses other competing methods in multiple datasets and met
 
 
 @article{ho2023optimal,
-abbr = {Preprint},
-  title={Optimal Rate for Parameter Estimation in Matrix-variate Deviated Models},
-  author={Nhat Ho and Dat Do and Huy Nguyen and Khai Nguyen},
+abbr = {NeurIPS},
+  title={Minimax Optimal Rate for Parameter Estimation in Multivariate Deviated Models},
+  author={Dat Do and Huy Nguyen and Khai Nguyen and Nhat Ho},
   journal={arXiv preprint arXiv:2301.11808},
   pdf ={https://arxiv.org/pdf/2301.11808.pdf},
+  published={true},
   abstract={We study the maximum likelihood estimation (MLE) in the \modelname \ where the data are generated from the density function $(1-\lambda^{*})h_{0}(x)+\lambda^{*}f(x|\mu^{*}, \Sigma^{*})$ where $h_{0}$ is a known function, $\lambda^{*} \in [0,1]$ and $(\mu^{*}, \Sigma^{*})$ are unknown parameters to estimate. The main challenges in deriving the convergence rate of the MLE mainly come from two issues: (1) The interaction between the function $h_{0}$ and the density function $f$; (2) The deviated proportion $\lambda^{*}$ can go to the extreme points of $[0,1]$ as the sample size goes to infinity. To address these challenges, we develop the \emph{distinguishability condition} to capture the linear independent relation between the function $h_{0}$ and the density function $f$. We then provide comprehensive convergence rates of the MLE via the vanishing rate of $\lambda^{*}$ to 0 as well as the distinguishability of $h_{0}$ and $f$.},
   year={2023}
 }
@@ -81,12 +94,13 @@ abbr = {Preprint},
 }
 
 @article{nguyen2023markov,
-abbr = {Preprint},
+abbr = {NeurIPS},
   title={Markovian Sliced Wasserstein Distances: Beyond Independent Projections},
   author={Khai Nguyen and Tongzheng Ren and Nhat Ho},
   journal={arXiv preprint arXiv:2301.04791},
   year={2023},
   selected = {true},
+  published={true},
   pdf={https://arxiv.org/pdf/2301.03749.pdf},
   code={https://github.com/UT-Austin-Data-Science-Group/MSW},
   abstract={Sliced Wasserstein (SW) distance suffers from redundant projections due to independent uniform random projecting directions. To partially overcome the issue, max K sliced Wasserstein (Max-K-SW) distance (K≥1), seeks the best discriminative orthogonal projecting directions. Despite being able to reduce the number of projections, the metricity of Max-K-SW cannot be guaranteed in practice due to the non-optimality of the optimization. Moreover, the orthogonality constraint is also computationally expensive and might not be effective. To address the problem, we introduce a new family of SW distances, named Markovian sliced Wasserstein (MSW) distance, which imposes a first-order Markov structure on projecting directions. We discuss various members of MSW by specifying the Markov structure including the prior distribution, the transition distribution, and the burning and thinning technique. Moreover, we investigate the theoretical properties of MSW including topological properties (metricity, weak convergence, and connection to other distances), statistical properties (sample complexity, and Monte Carlo estimation error), and computational properties (computational complexity and memory complexity). Finally, we compare MSW distances with previous SW variants in various applications such as gradient flows, color transfer, and deep generative modeling to demonstrate the favorable performance of MSW.}
