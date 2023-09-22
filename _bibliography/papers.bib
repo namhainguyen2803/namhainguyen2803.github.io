@@ -135,7 +135,7 @@ abbr = {ICML Workshop},
   title={Fast Approximation of the Generalized Sliced-Wasserstein Distance},
   author={Dung Le* and Huy Nguyen* and Khai Nguyen* and Trang Nguyen and Nhat Ho},
   journal={ICML 2023 Workshop on New Frontiers in Learning, Control, and Dynamical Systems},
-  year={2022},
+  year={2023},
   selected = {false},
   published={true},
   pdf={https://arxiv.org/pdf/2210.10268.pdf},
@@ -269,7 +269,20 @@ abbr = {AISTATS},
   published={true}
 }
 
-
+@inproceedings{
+nguyen2021improving,
+abbr = {ICLR},
+title={Improving Relational Regularized Autoencoders with Spherical Sliced Fused Gromov Wasserstein},
+author={Khai Nguyen and Son Nguyen and Nhat Ho and Tung Pham and Hung Bui},
+booktitle={International Conference on Learning Representations},
+year={2021},
+url={https://arxiv.org/abs/2010.01787},
+selected = {true},
+published={true},
+award={Spotlight (3%)},
+pdf={https://arxiv.org/pdf/2010.01787.pdf},
+abstract={Relational regularized autoencoder (RAE) is a framework to learn the distribution of data by minimizing a reconstruction loss together with a relational regularization on the prior of latent space. A recent attempt to reduce the inner discrepancy between the prior and aggregated posterior distributions is to incorporate sliced fused Gromov-Wasserstein (SFG) between these distributions. That approach has a weakness since it treats every slicing direction similarly, meanwhile several directions are not useful for the discriminative task. To improve the discrepancy and consequently the relational regularization, we propose a new relational discrepancy, named spherical sliced fused Gromov Wasserstein (SSFG), that can find an important area of projections characterized by a von Mises-Fisher distribution. Then, we introduce two variants of SSFG to improve its performance. The first variant, named mixture spherical sliced fused Gromov Wasserstein (MSSFG), replaces the vMF distribution by a mixture of von Mises-Fisher distributions to capture multiple important areas of directions that are far from each other. The second variant, named power spherical sliced fused Gromov Wasserstein (PSSFG), replaces the vMF distribution by a power spherical distribution to improve the sampling time of the vMF distribution in high dimension settings. We then apply the new discrepancies to the RAE framework to achieve its new variants. Finally, we conduct extensive experiments to show that the new autoencoders have favorable performance in learning latent manifold structure, image generation, and reconstruction.}
+}
 
 @inproceedings{
 nguyen2021distributional,
@@ -286,20 +299,7 @@ code={https://github.com/VinAIResearch/DSW},
 pdf={https://arxiv.org/pdf/2002.07367.pdf}
 }
 
-@inproceedings{
-nguyen2021improving,
-abbr = {ICLR},
-title={Improving Relational Regularized Autoencoders with Spherical Sliced Fused Gromov Wasserstein},
-author={Khai Nguyen and Son Nguyen and Nhat Ho and Tung Pham and Hung Bui},
-booktitle={International Conference on Learning Representations},
-year={2021},
-url={https://arxiv.org/abs/2010.01787},
-selected = {true},
-published={true},
-award={Spotlight (3%)},
-pdf={https://arxiv.org/pdf/2010.01787.pdf},
-abstract={Relational regularized autoencoder (RAE) is a framework to learn the distribution of data by minimizing a reconstruction loss together with a relational regularization on the prior of latent space. A recent attempt to reduce the inner discrepancy between the prior and aggregated posterior distributions is to incorporate sliced fused Gromov-Wasserstein (SFG) between these distributions. That approach has a weakness since it treats every slicing direction similarly, meanwhile several directions are not useful for the discriminative task. To improve the discrepancy and consequently the relational regularization, we propose a new relational discrepancy, named spherical sliced fused Gromov Wasserstein (SSFG), that can find an important area of projections characterized by a von Mises-Fisher distribution. Then, we introduce two variants of SSFG to improve its performance. The first variant, named mixture spherical sliced fused Gromov Wasserstein (MSSFG), replaces the vMF distribution by a mixture of von Mises-Fisher distributions to capture multiple important areas of directions that are far from each other. The second variant, named power spherical sliced fused Gromov Wasserstein (PSSFG), replaces the vMF distribution by a power spherical distribution to improve the sampling time of the vMF distribution in high dimension settings. We then apply the new discrepancies to the RAE framework to achieve its new variants. Finally, we conduct extensive experiments to show that the new autoencoders have favorable performance in learning latent manifold structure, image generation, and reconstruction.}
-}
+
 
 @article{nguyen2021structured,
 abbr = {NeurIPS},
