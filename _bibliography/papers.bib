@@ -9,17 +9,6 @@ abbr = {Preprint},
   year={2023}
 }
 
-@article{nguyen2023energy,
-abbr = {NeurIPS},
-  title={Energy-Based Sliced Wasserstein Distance},
-  author={Nguyen, Khai and Ho, Nhat},
-  journal={arXiv preprint arXiv:2304.13586},
-  selected = {true},
-  published={true},
-  pdf={https://arxiv.org/pdf/2304.13586.pdf},
-  abstract={The sliced Wasserstein (SW) distance has been widely recognized as a statistically effective and computationally efficient metric between two probability measures. A key component of the SW distance is the slicing distribution. There are two existing approaches for choosing this distribution. The first approach is using a fixed prior distribution. The second approach is optimizing for the best distribution which belongs to a parametric family of distributions and can maximize the expected distance. However, both approaches have their limitations. A fixed prior distribution is non-informative in terms of highlighting projecting directions that can discriminate two general probability measures. Doing optimization for the best distribution is often expensive and unstable. Moreover, designing the parametric family of the candidate distribution could be easily misspecified. To address the issues, we propose to design the slicing distribution as an energy-based distribution that is parameter-free and has the density proportional to an energy function of the projected one-dimensional Wasserstein distance. We then derive a novel sliced Wasserstein metric, energy-based sliced Waserstein (EBSW) distance, and investigate its topological, statistical, and computational properties via importance sampling, sampling importance resampling, and Markov Chain methods. Finally, we conduct experiments on point-cloud gradient flow, color transfer, and point-cloud reconstruction to show the favorable performance of the EBSW.},
-  year={2023}
-}
 
 @article{nguyen2023control,
 abbr = {Preprint},
@@ -60,19 +49,6 @@ the points on the surface. Our experiments on cortical surface reconstruction de
 that our approach surpasses other competing methods in multiple datasets and metrics.},
   year={2023}
 }
-
-
-@article{ho2023optimal,
-abbr = {NeurIPS},
-  title={Minimax Optimal Rate for Parameter Estimation in Multivariate Deviated Models},
-  author={Dat Do and Huy Nguyen and Khai Nguyen and Nhat Ho},
-  journal={arXiv preprint arXiv:2301.11808},
-  pdf ={https://arxiv.org/pdf/2301.11808.pdf},
-  published={true},
-  abstract={We study the maximum likelihood estimation (MLE) in the \modelname \ where the data are generated from the density function $(1-\lambda^{*})h_{0}(x)+\lambda^{*}f(x|\mu^{*}, \Sigma^{*})$ where $h_{0}$ is a known function, $\lambda^{*} \in [0,1]$ and $(\mu^{*}, \Sigma^{*})$ are unknown parameters to estimate. The main challenges in deriving the convergence rate of the MLE mainly come from two issues: (1) The interaction between the function $h_{0}$ and the density function $f$; (2) The deviated proportion $\lambda^{*}$ can go to the extreme points of $[0,1]$ as the sample size goes to infinity. To address these challenges, we develop the \emph{distinguishability condition} to capture the linear independent relation between the function $h_{0}$ and the density function $f$. We then provide comprehensive convergence rates of the MLE via the vanishing rate of $\lambda^{*}$ to 0 as well as the distinguishability of $h_{0}$ and $f$.},
-  year={2023}
-}
-
 @article{nguyen2023toward,
 abbr = {Preprint},
   title={Towards Convergence Rates for Parameter Estimation in Gaussian-gated Mixture of Experts},
@@ -93,11 +69,36 @@ abbr = {Preprint},
   year={2023}
 }
 
+@article{nguyen2023energy,
+abbr = {NeurIPS},
+  title={Energy-Based Sliced Wasserstein Distance},
+  author={Nguyen, Khai and Ho, Nhat},
+  journal={Advances in Neural Information Processing Systems},
+  selected = {true},
+  published={true},
+  pdf={https://arxiv.org/pdf/2304.13586.pdf},
+  abstract={The sliced Wasserstein (SW) distance has been widely recognized as a statistically effective and computationally efficient metric between two probability measures. A key component of the SW distance is the slicing distribution. There are two existing approaches for choosing this distribution. The first approach is using a fixed prior distribution. The second approach is optimizing for the best distribution which belongs to a parametric family of distributions and can maximize the expected distance. However, both approaches have their limitations. A fixed prior distribution is non-informative in terms of highlighting projecting directions that can discriminate two general probability measures. Doing optimization for the best distribution is often expensive and unstable. Moreover, designing the parametric family of the candidate distribution could be easily misspecified. To address the issues, we propose to design the slicing distribution as an energy-based distribution that is parameter-free and has the density proportional to an energy function of the projected one-dimensional Wasserstein distance. We then derive a novel sliced Wasserstein metric, energy-based sliced Waserstein (EBSW) distance, and investigate its topological, statistical, and computational properties via importance sampling, sampling importance resampling, and Markov Chain methods. Finally, we conduct experiments on point-cloud gradient flow, color transfer, and point-cloud reconstruction to show the favorable performance of the EBSW.},
+  year={2023}
+}
+
+@article{ho2023optimal,
+abbr = {NeurIPS},
+  title={Minimax Optimal Rate for Parameter Estimation in Multivariate Deviated Models},
+  author={Dat Do and Huy Nguyen and Khai Nguyen and Nhat Ho},
+  journal={Advances in Neural Information Processing Systems},
+  pdf ={https://arxiv.org/pdf/2301.11808.pdf},
+  published={true},
+  abstract={We study the maximum likelihood estimation (MLE) in the \modelname \ where the data are generated from the density function $(1-\lambda^{*})h_{0}(x)+\lambda^{*}f(x|\mu^{*}, \Sigma^{*})$ where $h_{0}$ is a known function, $\lambda^{*} \in [0,1]$ and $(\mu^{*}, \Sigma^{*})$ are unknown parameters to estimate. The main challenges in deriving the convergence rate of the MLE mainly come from two issues: (1) The interaction between the function $h_{0}$ and the density function $f$; (2) The deviated proportion $\lambda^{*}$ can go to the extreme points of $[0,1]$ as the sample size goes to infinity. To address these challenges, we develop the \emph{distinguishability condition} to capture the linear independent relation between the function $h_{0}$ and the density function $f$. We then provide comprehensive convergence rates of the MLE via the vanishing rate of $\lambda^{*}$ to 0 as well as the distinguishability of $h_{0}$ and $f$.},
+  year={2023}
+}
+
+
+
 @article{nguyen2023markov,
 abbr = {NeurIPS},
   title={Markovian Sliced Wasserstein Distances: Beyond Independent Projections},
   author={Khai Nguyen and Tongzheng Ren and Nhat Ho},
-  journal={arXiv preprint arXiv:2301.04791},
+  journal={Advances in Neural Information Processing Systems},
   year={2023},
   selected = {true},
   published={true},
@@ -106,7 +107,16 @@ abbr = {NeurIPS},
   abstract={Sliced Wasserstein (SW) distance suffers from redundant projections due to independent uniform random projecting directions. To partially overcome the issue, max K sliced Wasserstein (Max-K-SW) distance (K≥1), seeks the best discriminative orthogonal projecting directions. Despite being able to reduce the number of projections, the metricity of Max-K-SW cannot be guaranteed in practice due to the non-optimality of the optimization. Moreover, the orthogonality constraint is also computationally expensive and might not be effective. To address the problem, we introduce a new family of SW distances, named Markovian sliced Wasserstein (MSW) distance, which imposes a first-order Markov structure on projecting directions. We discuss various members of MSW by specifying the Markov structure including the prior distribution, the transition distribution, and the burning and thinning technique. Moreover, we investigate the theoretical properties of MSW including topological properties (metricity, weak convergence, and connection to other distances), statistical properties (sample complexity, and Monte Carlo estimation error), and computational properties (computational complexity and memory complexity). Finally, we compare MSW distances with previous SW variants in various applications such as gradient flows, color transfer, and deep generative modeling to demonstrate the favorable performance of MSW.}
   }
 
-
+@article{xinghan2022,
+abbr = {NeurIPS},
+  title={Robustify Transformers with Robust Kernel Density Estimation},
+  author={Xing Han and Tongzheng Ren and Tan Nguyen and Khai Nguyen and Joydeep Ghosh and Nhat Ho},
+  journal={Advances in Neural Information Processing Systems},
+  year={2023},
+  published={true},
+  pdf={https://arxiv.org/pdf/2210.05794.pdf},
+  abstract={Recent advances in Transformer architecture have empowered its empirical success in various tasks across different domains. However, existing works mainly focus on improving the standard accuracy and computational cost, without considering the robustness of contaminated samples. Existing work has shown that the self-attention mechanism, which is the center of the Transformer architecture, can be viewed as a non-parametric estimator based on the well-known kernel density estimation (KDE). This motivates us to leverage the robust kernel density estimation (RKDE) in the self-attention mechanism, to alleviate the issue of the contamination of data by down-weighting the weight of bad samples in the estimation process. The modified self-attention mechanism can be incorporated into different Transformer variants. Empirical results on language modeling and image classification tasks demonstrate the effectiveness of this approach.}
+  }
 @article{nguyen2023selfattention,
 abbr = {ICML},
   title={Self-Attention Amortized Distributional Projection Optimization for Sliced Wasserstein Point-Cloud Reconstruction},
@@ -132,15 +142,6 @@ abbr = {ICML Workshop},
   abstract={Generalized sliced Wasserstein distance is a variant of sliced Wasserstein distance that exploits the power of non-linear projection through a given defining function to better capture the complex structures of the probability distributions. Similar to sliced Wasserstein distance, generalized sliced Wasserstein is defined as an expectation over random projections which can be approximated by the Monte Carlo method. However, the complexity of that approximation can be expensive in high-dimensional settings. To that end, we propose to form deterministic and fast approximations of the generalized sliced Wasserstein distance by using the concentration of random projections when the defining functions are polynomial function, circular function, and neural network type function. Our approximations hinge upon an important result that one-dimensional projections of a high-dimensional random vector are approximately Gaussian.}
   }
 
-@article{xinghan2022,
-abbr = {Preprint},
-  title={Robustify Transformers with Robust Kernel Density Estimation},
-  author={Xing Han and Tongzheng Ren and Tan Nguyen and Khai Nguyen and Joydeep Ghosh and Nhat Ho},
-  journal={arXiv preprint arXiv:2210.05794},
-  year={2022},
-  pdf={https://arxiv.org/pdf/2210.05794.pdf},
-  abstract={Recent advances in Transformer architecture have empowered its empirical success in various tasks across different domains. However, existing works mainly focus on improving the standard accuracy and computational cost, without considering the robustness of contaminated samples. Existing work has shown that the self-attention mechanism, which is the center of the Transformer architecture, can be viewed as a non-parametric estimator based on the well-known kernel density estimation (KDE). This motivates us to leverage the robust kernel density estimation (RKDE) in the self-attention mechanism, to alleviate the issue of the contamination of data by down-weighting the weight of bad samples in the estimation process. The modified self-attention mechanism can be incorporated into different Transformer variants. Empirical results on language modeling and image classification tasks demonstrate the effectiveness of this approach.}
-  }
 
 @article{nguyen2022hsw,
 abbr = {ICLR},
