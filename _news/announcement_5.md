@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ICML2023
-date: 2023-04-24 15:59:00-0400
+title: ICLR2021
+date: 2021-01-24 15:59:00-0400
 inline: true
 ---
 
-1 paper **Self-Attention Amortized Distributional Projection Optimization for Sliced Wasserstein Point-Cloud Reconstruction** is accepted at **ICML2023**.  
+2 papers **Distributional Sliced-Wasserstein and Applications to Generative Modeling** (*spotlight*) and **DImproving Relational Regularized Autoencoders with Spherical Sliced Fused Gromov Wasserstein** are accepted at **ICLR2021**.  
