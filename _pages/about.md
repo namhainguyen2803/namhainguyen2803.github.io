@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. Student at <a href='https://stat.utexas.edu/'>Department of Statistics and Data Sciences</a>, <a href='https://www.utexas.edu/'>University of Texas at Austin</a> 
+subtitle: Ph.D. Candidate at <a href='https://stat.utexas.edu/'>Department of Statistics and Data Sciences</a>, <a href='https://www.utexas.edu/'>University of Texas at Austin</a> 
 
 profile:
   align: right
@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I’m Khai, a third-year Ph.D. student at [Department of Statistics and Data Sciences](https://stat.utexas.edu/), [University of Texas at Austin](https://www.utexas.edu/). I am fortunate to be advised by Professor [Nhat Ho](https://nhatptnk8912.github.io/) and Professor 
+Hi! I’m Khai, a third-year Ph.D. candidate at [Department of Statistics and Data Sciences](https://stat.utexas.edu/), [University of Texas at Austin](https://www.utexas.edu/). I am fortunate to be advised by Professor [Nhat Ho](https://nhatptnk8912.github.io/) and Professor 
 [Peter Müller](https://www.ma.utexas.edu/component/cobalt/item/15-mathematics/364-mueller-peter?Itemid=1259). I am associated with Institute for Foundations of Machine Learning ([IFML](https://www.ifml.institute/)) and I am a visiting student at [Statistical Information Lab](https://odin.mdacc.tmc.edu/~wwang7/people.html) at [The University of Texas MD Anderson Cancer Center](https://www.mdanderson.org/). I graduated from  [Hanoi University of Science and Technology](https://soict.hust.edu.vn/) with a Computer Science Bachelor's degree.
 Before joining UT Austin, I was an AI Research Resident at [VinAI Research](http://www.vinai.io) under the supervision of [Dr. Hung Bui](https://sites.google.com/site/buihhung/).
 
@@ -31,7 +31,7 @@ To avoid unstable optimization and model misspecification in designing slicing m
 * ***Projecting operators.*** The vanilla sliced Wasserstein distance utilizes the Radon Transform as the projecting operator. The Radon Transform simply takes the inner product between the supports of a probability measure
 and  a projecting direction as the supports of the one-dimensional projected probability measure. To generalize the projecting operator to tensor spaces, I use convolution operator to project probability measures over tensors to one-dimension in [[NeurIPS'22]](https://arxiv.org/pdf/2204.01188.pdf). In addition, I connect deep learning (neural networks) techniques to sliced Wasserstein by proposing Overaparameterized Radon Transform and Hierarchical Radon Transform in [[ICLR'23]](https://arxiv.org/pdf/2209.13570.pdf). 
 * ***Numerical approximation.*** The SW distance is usually estimated by Monte Carlo integration due to the intractable expectation with respect to the slicing distribution. To reduce the variance of the Monte Carlo estimator,
-I first propose control variates which are based on the closed-form of the Wasserstein-2 distance between two Gaussians in [[Arxiv'23](https://arxiv.org/pdf/2305.00402.pdf)]. Importantly, the proposed control variates have linear time complexity and space complexity. In addition, we propose to use low-discrepancy sequences on the sphere (Quasi-Monte Carlo) to approximate sliced Wasserstein in [[Arxiv'23]](https://arxiv.org/pdf/2309.11713.pdf). Moreover, we propose Randomized Quasi-sliced Wasserstein unbiased estimation of sliced Wasserstein which are based on randomizing low-discrepancy sequences.
+I first propose control variates which are based on the closed-form of the Wasserstein-2 distance between two Gaussians in [[Arxiv'23](https://arxiv.org/pdf/2305.00402.pdf)]. Importantly, the proposed control variates have linear time complexity and space complexity. In addition, I propose to use low-discrepancy sequences on the sphere (Quasi-Monte Carlo) to approximate sliced Wasserstein in [[Arxiv'23]](https://arxiv.org/pdf/2309.11713.pdf). Moreover, we propose Randomized Quasi-sliced Wasserstein unbiased estimation of sliced Wasserstein which are based on randomizing low-discrepancy sequences.
 
 Moreover, I aim to push forward the application of optimal transport, Wasserstein distance, and sliced Wasserstein distance in probabilistic Machine Learning models such as  point-clouds applications [[ICML'23]](https://arxiv.org/pdf/2301.04791.pdf), 3D mesh deformation [[Arxiv'23]](https://arxiv.org/pdf/2305.17555.pdf), generative models [[NeurIPS'22]](https://arxiv.org/pdf/2203.13417.pdf), domain adaptation [[ICML'22]](https://proceedings.mlr.press/v162/nguyen22d/nguyen22d.pdf) [[ICML'22]](https://proceedings.mlr.press/v162/nguyen22e/nguyen22e.pdf), and other tasks that need to deal with probability measures.
 
