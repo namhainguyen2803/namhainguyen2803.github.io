@@ -15,7 +15,7 @@
       institution: University of Texas, Austin, USA
       year: 2021-Now
       description:
-        - Advised by Professor <a href="https://nhatptnk8912.github.io/">Nhat Ho</a>
+        - Advised by Professor <a href="https://nhatptnk8912.github.io/">Nhat Ho</a> and Professor  <a href="https://www.ma.utexas.edu/component/cobalt/item/15-mathematics/364-mueller-peter?Itemid=1259">Peter Müller</a>
     - title: B.Sc in Computer Science
       institution: Hanoi Univeristy of Science and Technology, Hanoi, Vietnam
       year: 2015-2020
@@ -68,4 +68,4 @@
   type: list
   contents:
     - <u>Journal Reviewer:</u> Journal of Machine Learning Research (JMLR), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Machine Learning Journal.
-    - <u>Conference Reviewer/ Program Committee:</u> NeurIPS (2021,2022,2023), ICML (2021,2022,2023), ICLR (2022,2023), AISTATS (2022,2023), AAAI (2023,2024), CVPR (2023), ICCV (2023).
+    - <u>Conference Reviewer/ Program Committee:</u> NeurIPS (2021,2022,2023), ICML (2021,2022,2023), ICLR (2022,2023,2024), AISTATS (2022,2023,2024), AAAI (2023,2024), CVPR (2023), ICCV (2023), ICASSP (2024).
