@@ -19,6 +19,9 @@
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
+          {%- elsif entry.award -%}
+          <abbr class="badge">{{entry.award}}</abbr>
+          {%- endif -%}
         {%- endif -%}
         </div>
 
