@@ -68,4 +68,4 @@
   type: list
   contents:
     - <u>Journal Reviewer:</u> Journal of Machine Learning Research (JMLR), IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Machine Learning Journal.
-    - <u>Conference Reviewer/ Program Committee:</u> NeurIPS (2021,2022,2023), ICML (2021,2022,2023), ICLR (2022,2023,2024), AISTATS (2022,2023,2024), AAAI (2023,2024), CVPR (2023), ICCV (2023), ICASSP (2024).
+    - <u>Conference Reviewer/ Program Committee:</u> NeurIPS (2021-2023), ICML (2021-2024), ICLR (2022-2024), AISTATS (2022-2024), AAAI (2023-2024), CVPR (2023-2024), ICCV (2023), ICASSP (2024).
