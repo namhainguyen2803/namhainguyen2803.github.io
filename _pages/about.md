@@ -22,7 +22,6 @@ Before joining UT Austin, I was an AI Research Resident at [VinAI Research](http
 
 **Research:** My current works are making [Optimal Transport](https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)) scalable in statistical inference (low time complexity, low space complexity, low sample complexity) via the one-dimensional projection approach which is known as sliced optimal transport (sliced Wasserstein distance). 
 
-
 My works focus on three aspects of the SW distance:
 * ***Slicing distributions.*** The vanilla sliced Wasserstein (SW) distance naively treats all one-dimensional projections the same and independently by using the uniform distribution over projecting directions. To improve and generalize the SW, I propose to search for the best distribution over projecting distributions (or the slicing distribution) which can maximize the expected projected distance. 
 In particular, a regularized implicit family of distributions is introduced in [[ICLR'21]](https://arxiv.org/pdf/2002.07367.pdf) and  explicit families (von Mises-Fisher and Power Spherical) are introduced in [[ICLR'21]](https://arxiv.org/pdf/2010.01787.pdf). Moreover, I introduce the usage of
