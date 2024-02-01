@@ -45,6 +45,5 @@ I first propose control variates which are based on the closed-form of the Wasse
 <br>
 <br>
 Moreover, I aim to push forward the <b> <i>application</i></b> of optimal transport, Wasserstein distance, and sliced Wasserstein distance in probabilistic Machine Learning models such as  point-clouds applications <a href="https://arxiv.org/pdf/2301.04791.pdf">[ICML'23]</a>, 3D mesh deformation <a href="https://arxiv.org/pdf/2305.17555.pdf">[ICLR'24]</a>, generative models <a href="https://arxiv.org/pdf/2203.13417.pdf">[NeurIPS'22]</a>, domain adaptation <a href="https://proceedings.mlr.press/v162/nguyen22d/nguyen22d.pdf">[ICML'22]</a>, <a href="https://proceedings.mlr.press/v162/nguyen22e/nguyen22e.pdf">[ICML'22]</a>, multimodal AI <a href="https://openreview.net/pdf?id=l60EM8md3t">[ICLR'24]</a>, and other tasks that need to deal with probability measures.
-
-
 </details>
+<br>
