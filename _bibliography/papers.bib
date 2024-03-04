@@ -81,10 +81,11 @@ that our approach surpasses other competing methods in multiple datasets and met
 }
 @article{luong2023revisit,
 abbr = {ICLR},
-  title={Revisiting Deep Audio-Text Retrieval Through the Lens of Transportation},
+  title={Deep Audio-Text Retrieval Through the Lens of Transportation},
   author={Luong, Manh and Nguyen, Khai and Ho, Nhat and  Haf, Reza and  Phung, Dinh and   Qu, Lizhen},
   journal={International Conference on Learning Representations},
   selected = {false},
+  code={https://github.com/v-manhlt3/m-LTM-Audio-Text-Retrieval},
   published={true},
   pdf={https://openreview.net/pdf?id=l60EM8md3t},
   abstract={Learning-to-match (LTM) is an effective inverse optimal transport framework for learning the underlying ground metric between two sources of data, which can be further used to form the matching between them. Nevertheless, the conventional LTM framework is not scalable since it needs to use the entire dataset each time updating the parametric ground metric. To adapt the LTM framework to the deep learning setting, we propose the mini-batch learning-to-match (m-LTM) framework for audio-text retrieval problems, which is based on mini-batch subsampling and neural networks parameterized ground metric. In addition, we improve further the framework by introducing the Mahalanobis-enhanced family of ground metrics. Moreover, to cope with the noisy data correspondence problem arising from practice, we additionally propose a variant using partial optimal transport to mitigate the pairing uncertainty in training data. We conduct extensive experiments on audio-text matching problems using three datasets: AudioCaps, Clotho, and ESC-50. Results demonstrate that our proposed method is capable of learning rich and expressive joint embedding space, which achieves SOTA performance. Beyond this, the proposed m-LTM framework is able to close the modality gap across audio and text embedding, which surpasses both triplet and contrastive loss in the zero-shot sound event detection task on the ESC-50 dataset. Finally, our strategy to use partial OT with m-LTM has shown to be more noise tolerance than contrastive loss under a variant of noise ratio of training data in AudioCaps.},
