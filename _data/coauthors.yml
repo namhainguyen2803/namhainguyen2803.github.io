@@ -10,6 +10,10 @@
   - firstname: ["Nhat"]
     url: https://nhatptnk8912.github.io/
 
+"Bariletto":
+  - firstname: ["Nicolas"]
+    url: https://nbariletto.github.io/
+
 "Bui":
   - firstname: ["Hung"]
     url: https://sites.google.com/site/buihhung/
@@ -21,7 +25,8 @@
 "Le":
   - firstname: ["Trung"]
     url: https://scholar.google.com/citations?user=gysdMxwAAAAJ&hl=en
-
+  - firstname: ["Tung"]
+    url: https://tungthanhlee.github.io/
 
 "Ren":
   - firstname: ["Tongzheng"]
