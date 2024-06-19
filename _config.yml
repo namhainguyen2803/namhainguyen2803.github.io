@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Khai Nguyen # the website title (if blank, full name will be used instead)
-first_name: Khai
+title: Hai Nguyen # the website title (if blank, full name will be used instead)
+first_name: Hai
 middle_name:
 last_name: Nguyen
-email: khainb@utexas.edu
+email: namhai283287@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   My personal website.
 footer_text: >
